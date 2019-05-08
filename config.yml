@@ -1,0 +1,23 @@
+title: Lokaverkefni vef2a
+baseurl: "/lokaverk_vef2a"
+url: "robbiredneck.github.io/lokaverk_vef2a"
+
+collections:
+  authors:
+    output: true
+
+defaults:
+  - scope:
+      path: "/lokaverk_vef2a"
+      type: "authors"
+    values:
+      layout: "author"
+  - scope:
+      path: "/lokaverk_vef2a"
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: "/lokaverk_vef2a"
+    values:
+      layout: "default"

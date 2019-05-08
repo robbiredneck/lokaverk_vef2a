@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="{{ '/assets/css/styles.css' | prepend: site.baseurl }}">
+    <link rel="" href="">
+  </head>
+  <body>
+    <header>
+    {% include navigation.html %}
+   <img src="{{ '/assets/drawing.svg' | prepend: site.baseurl }}" class = "flright2">
+  </header>
+  <div class = "grid">
+  <main>
+    {{ content }}
+  </main>
+  <div class = "faeraklif">
+      <a href = "https://klif.is/#" >
+      <img src = "{{ '/assets/test.jpg' | prepend: site.baseurl }}" class = "klifimg" width="100" height="120">
+      Smelltu á myndina</a> 
+      </div>
+  <footer>
+    <img src="{{ '/assets/drawing.svg' | prepend: site.baseurl }}" class="flright">
+  </footer> 
+  </div> 
+  </body>
+</html>
